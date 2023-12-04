@@ -1,0 +1,109 @@
+body {
+	background-color: 		#000099;
+	 font-family:arial , sans-serif;
+	 margin: 0;
+}
+
+.name {
+	
+	 color:white;
+	 font-family: Impact;
+}
+.bienvenidos{
+color:white;	
+	
+}	
+.mi-banner{
+	   width: 1300px; /* Cambia el ancho según tus necesidades */
+    height: 50px; /* Cambia la altura según tus necesidades */
+    /* Puedes agregar más estilos según tus preferencias */
+}
+	
+
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ffcc00; /* Cambia el color al pasar el ratón sobre los enlaces */
+}
+
+.contenido { 
+background-color:black;
+    padding: 20px;
+}
+#carrusel {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#carrusel img {
+    width: 100%;
+    display: none;
+}
+
+.submenu:hover .sublist {
+    display: block;
+}
+
+.sublist {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    border: 1px solid #555;
+    z-index: 1;
+}
+
+.sublist li {
+    border-bottom: 1px solid #555;
+}
+
+.sublist a {
+    padding: 10px;
+    display: block;
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #000000;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #00A4BD;
+}
